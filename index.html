@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+</head>
+<body>
+    <div> 
+        <p> Calculator alpha 0.1</p> 
+
+    </div>
+
+    <div class="calculator">
+        <!-- <div class="calculator-display"> -->
+        <div>
+            <input class="calculator-display" readonly placeholder="0">
+        </div>
+        <div class="calculator-keys">
+           <!-- <div class="opers"> -->
+                <button class="key-operator" data-action="add">+</button>
+                <button class="key-operator" data-action="subtract">-</button>
+                <button class="key-operator" data-action="multiple">*</button>
+                <button class="key-operator" data-action="divide">/</button>
+            <!-- </div> -->
+            <br>
+            <!-- <div class="digits"> -->
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <br>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <br>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <br>
+                <button>0</button>
+            <!-- </div> -->
+            <!-- <div class="decimal" > -->
+                <button data-action="decimal">&nbsp;.</button>
+            <!-- </div> -->
+            
+
+            <button class="key-equal" data-action="calculate">=</button>
+            <button class="clear-display" data-action="clear">AC</button>
+        </div>
+    </div>
+
+    <script src = "js/index.js"></script>
+</body>
+</html>
